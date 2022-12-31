@@ -15,6 +15,7 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
+import { prefix } from '../utils/prefix'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -27,7 +28,7 @@ const Page = () => {
         <Section delay={0}>
           <Box align="center">
             <Image
-              src="/card.png"
+              src={`${prefix}/card.png`}
               alt="Dan Abramov"
               // boxSize="200px"
               width={862}
@@ -72,7 +73,7 @@ const Page = () => {
               overflow="hidden"
             >
               <ProfileImage
-                src="/images/Levi.jpg"
+                src={`${prefix}/images/Levi.jpg`}
                 alt="Profile image"
                 borderRadius="full"
                 width="100%"
