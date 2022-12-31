@@ -9,7 +9,7 @@ import {
   Button
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTiktok } from 'react-icons/io5'
 import Image from 'next/legacy/image'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -95,13 +95,17 @@ const Page = () => {
             school.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="https://github.com/J1aM1ng" passHref scroll={false}>
+            <NextLink
+              href="https://www.douyin.com/user/MS4wLjABAAAA6SCiFLdCxusMB6by-sUzQk78BRGlqj2bAGo-I1bhYDNd5sc3Ntv1Zltxo5B1J-EY"
+              passHref
+              scroll={false}
+            >
               <Button
-                leftIcon={<IoLogoGithub />}
+                leftIcon={<IoLogoTiktok />}
                 rightIcon={<ChevronRightIcon />}
                 colorScheme="teal"
               >
-                My GitHub
+                My TikTok
               </Button>
             </NextLink>
           </Box>
