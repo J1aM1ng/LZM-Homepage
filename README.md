@@ -1,7 +1,4 @@
-# Levi's Homepage
-
-
-https://levi-homepage.vercel.app/
+Momo's Homepage
 
 
 ## Stack
