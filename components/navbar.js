@@ -100,8 +100,11 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem>About</MenuItem>
                 </NextLink>
-                <MenuItem as={Link} href="https://github.com/J1aM1ng">
-                  GitHub
+                <MenuItem
+                  as={Link}
+                  href="https://www.douyin.com/user/MS4wLjABAAAA6SCiFLdCxusMB6by-sUzQk78BRGlqj2bAGo-I1bhYDNd5sc3Ntv1Zltxo5B1J-EY"
+                >
+                  TikTok
                 </MenuItem>
               </MenuList>
             </Menu>
